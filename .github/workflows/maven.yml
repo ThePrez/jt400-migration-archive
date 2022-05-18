@@ -5,9 +5,11 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ main, jcleanup ]
+    branches:    
+      - main
+      - jcleanup
   pull_request:
-    branches: [ main, jcleanup ]
+    branches: main
 
 jobs:
   build:
